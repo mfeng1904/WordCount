@@ -1,0 +1,1 @@
+ sed -e "$(sed 's:.*:s/&//ig:' StopWords.txt)" HuckleberryFinn.txt > HuckFinn.txt
